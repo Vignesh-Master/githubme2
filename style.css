@@ -1,0 +1,75 @@
+/* Reset default margin and padding for the body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the title bar */
+.title-bar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Style for the website name */
+.website-name {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Style for the right section containing menu button and links */
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the menu button */
+.menu-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 20px;
+    color: #fff;
+}
+
+/* Style for login and signup links */
+.login-link,
+.signup-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Style for login link on hover */
+.login-link:hover {
+    background-color: greenyellow;
+    color: #333;
+    border-radius: 7px;
+
+}
+
+/* Style for signup link on hover */
+.signup-link:hover {
+    background-color: greenyellow;
+    color: #333;
+    border-radius: 7px;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the logo */
+.logo img{
+    width: 40px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add spacing between logo and title */
+    border-radius: 5px;
+
+}
